@@ -10,7 +10,7 @@ double num2 = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("escolha a operacao");
 Console.WriteLine("1 adição");
-Console.WriteLine("2 subitração");
+Console.WriteLine("2 subtração");
 Console.WriteLine("3 multiplicação");
 Console.WriteLine("4 divisão");
 int operacao = Convert.ToInt32(Console.ReadLine());
@@ -35,3 +35,4 @@ default:
       Console.WriteLine("operação invalida. ");
       break;
 }
+
